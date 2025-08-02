@@ -21,7 +21,7 @@ def add_contact(contact: Contact):
         if contact.name in contacts:
             raise HTTPException(
                 status_code=400, detail="Contact already exists")
-        contacts[contact.name] = contact.dict()
+        contacts[contact.name] = contact.model_dump()
         return {"message": "Contact added successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
