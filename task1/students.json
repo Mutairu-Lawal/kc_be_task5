@@ -1,0 +1,22 @@
+{
+    "alice": {
+        "name": "Alice",
+        "subject_scores": {
+            "Math": 90.0,
+            "English": 85.0,
+            "Science": 88.0
+        },
+        "average": 87.66666666666667,
+        "grade": "B"
+    },
+    "joy": {
+        "name": "joy",
+        "subject_scores": {
+            "Math": 90.0,
+            "English": 85.0,
+            "Science": 88.0
+        },
+        "average": 87.67,
+        "grade": "B"
+    }
+}
